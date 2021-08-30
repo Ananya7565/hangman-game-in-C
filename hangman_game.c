@@ -84,6 +84,11 @@ int game(int z)
 	        char letter;
 	        printf("\nenter a letter : ");
 	        scanf("%c",&letter);
+		if(letter=='a'||letter=='e'||letter=='o'||letter=='i'||letter=='u');
+           	{
+                printf("\nINVALID");
+                exit(0);
+            	}
 	        for(int i=0;i<n;i++)
 	        {
                 int r=0;
